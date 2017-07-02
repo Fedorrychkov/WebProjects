@@ -1,0 +1,20 @@
+.header_searchbar {
+  &__input {
+    height: 32px;
+    widows: 190px;
+    background-color: #fff;
+    color: $submain_color;
+    box-sizing: border-box;
+    padding: 12px 14px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+  }
+
+  &__icon {
+    color: #fff;
+    padding-left: 10px;
+  }
+}
+
+.header_searchbar__input::-webkit-input-placeholder {color: $submain_color;}

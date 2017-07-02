@@ -1,0 +1,18 @@
+.social_block {
+  margin: 10px 0 0;
+
+  &__item {
+    display: inline-block;
+    padding: 0 10px;
+  }
+
+  &__link {
+    color: #fff;
+    opacity: .9;
+
+    &:hover {
+      opacity: 1;
+      display: inline-block;
+    }
+  }
+}

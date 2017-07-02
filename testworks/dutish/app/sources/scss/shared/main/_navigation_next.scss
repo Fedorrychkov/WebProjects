@@ -1,0 +1,17 @@
+.navigation_next {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+  &__angle {
+    color: #fff;
+    display: block;
+    font-size: 2rem;
+  }
+}

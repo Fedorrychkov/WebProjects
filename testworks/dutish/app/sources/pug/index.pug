@@ -1,0 +1,45 @@
+doctype html
+html
+  head
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title DutishWeb
+    link(rel="stylesheet", type="text/css", href="../../assets/css/application.css")
+body
+  .markup#fullpage
+    aside.nav_icon
+    header.header
+      .header_logo
+        img(src="assets/img/berg_logo.png", class="header_logo__img")
+      nav.header_menu
+        ul.header_menu__ul
+          li.header_menu__item
+            a(href="#", class="header_menu__link") Bewerben
+          li.header_menu__item
+            a(href="#", class="header_menu__link") Bewerben
+          li.header_menu__item
+            a(href="#", class="header_menu__link") Bewerben
+          li.header_menu__item
+            a(href="#", class="header_menu__link") Bewerben
+          li.header_menu__item
+            a(href="#", class="header_menu__link") Bewerben
+      .header_searchbar
+        form.header_searchbar__form
+          input(type="search", name="searchbar", placeholder="Jobbose durchsuchen...", class="header_searchbar__input")
+          i(class="fa fa-search header_searchbar__icon", aria-hidden="true")
+    section.section.screen.welcome.bg_effect#section_1(data-anchor="block2")
+      .welcome__text
+        img(src="assets/img/berg_logo.png", class="welcome__logo")
+        h1.welcome__activity PERSONALMANAGEMENT 
+          span FÜR KAUMÄNNISCHES & IT-PERSONAL
+        span.welcome__subactivity NÜRNBERG, FÜRTH & ERLANGEN
+      a(href="#block2")
+        div(class="navigation_next", data-scrollto="section_2") BERG TOUR STARTEN
+          i(class="fa fa-angle-double-down navigation_next__angle", aria-hidden="true")
+    
+    section.section.screen.bg_effect#section_2(data-anchor="block2")
+      .second_block.content_block
+
+
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js")
+  script(src="assets/js/jquery.fullPage.min.js")
+  script(src="assets/js/myfullpage.js")

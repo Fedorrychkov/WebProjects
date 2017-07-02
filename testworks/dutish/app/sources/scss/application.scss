@@ -1,0 +1,46 @@
+@import 
+        /*____ Font styles ____*/
+        'shared/font/font.scss',
+        /*____ Font Awesome ____*/
+        'font-awesome/scss/font-awesome.scss',
+        'shared/default_styles.scss',
+        /*____ Reset default styles ____*/
+        'shared/reset.scss',
+        /*____ Variables ____*/
+        'shared/variables.scss',
+        /*____ Mixins ____*/
+        'shared/mixins.scss',
+        /*____ Template to Dark time _____*/
+        'shared/template_color/dark_template.scss',
+        /*____ Template to Day time _____*/
+        'shared/template_color/light_template.scss',
+        /*____ main block ____*/
+        'shared/main/screen.scss',
+        'shared/main/content.scss',
+        'shared/main/welcome.scss',
+        'shared/main/navigation_next.scss',
+        'shared/main/bg_effect.scss',
+        'shared/main/main.scss',
+        'shared/main/wrapper.scss',
+        'shared/main/loading.scss',
+        'shared/main/nav_icon.scss',
+        /*____ Header Styles ____*/
+        'shared/header/header.scss',
+        'shared/header/header_logo.scss',
+        'shared/header/header_searchbar.scss',
+        'shared/header/header_menu.scss',
+        /*____ User Interface ____*/
+        'shared/ui/active_link.scss',
+        'shared/ui/social_block.scss',
+        /*____ User Interface ____*/
+        'shared/main/second/second_block.scss',
+        'shared/main/content_block.scss';
+        
+
+body { 
+    background-image: url('../img/mountine.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
