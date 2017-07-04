@@ -1,0 +1,93 @@
+body {
+  font-size: 18px;
+}
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 1.2rem;
+}
+
+.page-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.header_logo {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 2rem;
+}
+
+.menu {
+  width: auto;
+  background: none;
+  box-shadow: none;
+  height: auto;
+  line-height: 1;
+}
+
+.menu__ul {
+
+}
+
+.menu__item {
+  padding: 0 15px;
+}
+
+.menu__link {
+  width: auto;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.search {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+.search__input {
+  color: #fff;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #fff;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+  color: #fff;
+}
+
+.search__label {
+
+}
+
+.search__input:focus {
+}
+
+.search__img {
+  margin: 0 auto;
+  display: block;
+}
+
+.search__title {
+  color: #fff;
+}
+
+.search__button {
+  font-size: 1.4rem;
+
+}
