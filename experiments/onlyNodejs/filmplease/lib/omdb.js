@@ -1,7 +1,7 @@
 const http = require('http');
 
 function get(title, done) {
-  const req = http.get(`http://getmovie.cc/api/kinopoisk.json?id=${title}&token=5dc2716dbb68073ad7d6e12ab9a79800`, res => {
+  const req = http.get(`http://www.omdbapi.com/?t=${title}&apikey=8f5abbb`, res => {
     if (res.statusCode !== 200) {
       done(new Error(`Ошибка: ${res.statusMessage} (${res.statusCode})`));
       res.resume();
@@ -23,6 +23,8 @@ function get(title, done) {
         done(error);
       }
       
+      if (result.Response === 'False') return done(new Error('Фильм не найден'));
+
       done(null, result);
 
     });

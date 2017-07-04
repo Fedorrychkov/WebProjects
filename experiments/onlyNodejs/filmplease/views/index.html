@@ -19,7 +19,7 @@
 </head>
 <body class="indigo">
   <header class="header page-wrapper">
-    <h1 class="header_logo">Film Please</h1>
+    <a href="../"><h1 class="header_logo">Film Please</h1></a>
     <nav class="menu">
       <ul class="menu__ul">
         <li class="menu__item"><a href="#" class="menu__link">Популярное</a></li>
@@ -30,10 +30,10 @@
   <main class="main page-wrapper" id="search">
     <div class="search">
       <img src="img/movie.png" class="search__img responsive-img">
-      <form action="/search">
+      <form method="GET" action="/search">
       <h3 class="search__title">Find Film</h3>
         <div class="input-field col s6 search__box">
-          <input id="last_name" type="text" class="search__input validate">
+          <input id="last_name" name="title" type="text" class="search__input validate">
           <label for="last_name" class="search__label">Last Name</label>
         </div>
         <button type="submit" class="waves-effect waves-light btn-large search__button">Найти</button>

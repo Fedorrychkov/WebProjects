@@ -13,13 +13,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="img/movie.png" type="image/x-icon">
 
-  <title>Film Please</title>
+  <title>{{Title}} - Film Please</title>
   <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 <body class="indigo">
   <header class="header page-wrapper">
-    <h1 class="header_logo">Film Please</h1>
+    <a href="../"><h1 class="header_logo">Film Please</h1></a>
     <nav class="menu">
       <ul class="menu__ul">
         <li class="menu__item"><a href="#" class="menu__link">Популярное</a></li>
@@ -28,7 +28,14 @@
     </nav>
   </header>
   <main class="main page-wrapper" id="movie">
-
+  {{Poster}}
+  {{Title}}
+  {{Year}}
+  {{Director}}
+  {{Runtime}}
+  {{imdbRating}}/10
+  {{Plot}}
+  {{imdbID}}
   </main>
 
 
