@@ -26,7 +26,6 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
   font-size: 3rem;
   font-weight: bold;
   color: #fff;
-  margin: 2rem;
 }
 
 .menu {
@@ -90,4 +89,41 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 .search__button {
   font-size: 1.4rem;
 
+}
+
+.movie {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.description {
+  margin: 0 30px;
+  width: 60%;
+}
+
+.movie_posterbody {
+  width: 40%;
+}
+
+.movie__poster {
+  width: 100%;
+}
+
+.description span {
+  display: block;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.description span em {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.description .movie__title {
+  font-size: 2.4rem;
+  margin-left: -6px;
 }

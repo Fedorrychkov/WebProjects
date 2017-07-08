@@ -1,0 +1,29 @@
+.welcome__bg {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center; }
+  .welcome__bg::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+.welcome__text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  color: #fff; }
+.welcome__subtext {
+  margin: 20px 0; }
+.welcome__buttons .button {
+  margin: 0 20px 0 0; }
+
+/*# sourceMappingURL=welcome_screen.component.css.map */

@@ -1,0 +1,22 @@
+@import '../../assets/styles/variables';
+
+.header {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding: $offset-s $offset-xl;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    font-size:2rem;
+    color: #fff;
+    font-weight: bold;
+  }
+}

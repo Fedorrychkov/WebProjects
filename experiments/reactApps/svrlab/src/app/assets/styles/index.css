@@ -1,0 +1,56 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-size: 18px;
+  background-color: #f5f5f5; }
+
+a {
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+.page-wrapper {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  clear: both;
+  display: block; }
+
+.button {
+  color: #222;
+  border: none;
+  background-image: linear-gradient(to right, #fee242, #fed919);
+  box-shadow: 0px 4px 4px 0 rgba(113, 99, 21, 0.35);
+  font-weight: bold;
+  border-radius: 32px;
+  transition: 0.3s;
+  padding: 18px 46px 19px;
+  position: relative;
+  display: inline-block;
+  min-width: 251px;
+  text-align: center;
+  cursor: pointer;
+  outline: none; }
+  .button:hover {
+    transition: 0.3s; }
+
+.button__easy {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff; }
+  .button__easy:hover {
+    background-color: #fff;
+    color: #222; }
+
+/*# sourceMappingURL=index.css.map */

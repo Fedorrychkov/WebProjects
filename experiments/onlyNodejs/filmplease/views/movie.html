@@ -13,7 +13,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="img/movie.png" type="image/x-icon">
 
-  <title>{{Title}} - Film Please</title>
+  <title>{{Title}} - Film Please!</title>
   <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
@@ -27,15 +27,19 @@
       </ul>
     </nav>
   </header>
-  <main class="main page-wrapper" id="movie">
-  {{Poster}}
-  {{Title}}
-  {{Year}}
-  {{Director}}
-  {{Runtime}}
-  {{imdbRating}}/10
-  {{Plot}}
-  {{imdbID}}
+  <main class="main page-wrapper movie" id="movie">
+    <div class="movie_posterbody">
+      <img class="movie__poster" src="{{Poster}}">
+    </div>
+    
+    <div class="description">
+      <span class="movie__title">{{Title}}</span>
+      <span class="movie__director"><em>Director: {{Director}}</em></span>
+      <span>Runtime: <em>{{Runtime}}</em></span>
+      <span>Rating: <em>{{imdbRating}}/10</em></span>
+      <span>Description: <em>{{Plot}}</em></span>
+      <span>Link to OMDB: <em><a href="http://www.imdb.com/title/{{imdbID}}/">info</a></em></span>
+    </div>
   </main>
 
 
